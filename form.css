@@ -1,0 +1,74 @@
+
+.bdy{
+    background-color:olive;
+    margin:auto;
+    text-align: center;
+}
+.h2{
+    background-color:azure;
+    line-height: 50px;
+    margin-top: 25px;
+    text-align: center;
+    width: 1000px;
+}
+.container{
+    padding: 30px;
+    margin-top: 100px;
+    background-color:khaki;
+    display: inline-block;
+    box-shadow: 5px 0px 10px grey,0px 5px 10px grey;
+    border-radius: 4px;
+
+}
+.temp-conv{
+    margin-top: 3px;
+    display: inline-block;
+    font-weight: bold;
+}
+label{
+    background-color: azure;
+    padding: 5px;
+    border-radius: 3px;
+}
+.inp{
+    font-size: 25px;
+    padding:5px 10px;
+    margin:20px;
+    text-align: center;}
+
+.icons{
+    display: inline;
+    float:right;
+    padding:10px;
+}
+.menu{
+
+    margin-bottom: 100px;
+    /* position: relative; */
+}
+.tc{
+    background-color:darkslategray;
+    color:goldenrod;
+}
+.htc{
+    background-color: black;
+}
+.hamburg{
+    /* display: inline-block; */
+    padding:20px;
+    line-height: 15px;
+    visibility: hidden;
+    font-size: 20px;
+}
+.visib{
+    visibility: visible;
+}
+.inlnk{
+    background-color: beige;
+    float:right;
+    padding:inherit;
+    border: 1px solid black;
+}
+.hm:hover{
+    color:beige;
+}

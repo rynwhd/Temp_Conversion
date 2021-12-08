@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp Converter</title>
+    <link rel="stylesheet" href="CSS/tempconv.css">
+    <link rel="shortcut icon" href="Img/640px-Mikhail_Tal_1982.jpeg">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body class="bdy">
+
+
+    <div class="container">
+            <div class="menu">
+                
+                <i class="fas fa-4x icons ch fa-toggle-on" onclick="themechanger()" name="off"></i>
+                <i class="fas fa-bars fa-4x icons hm " onclick="hamburger()"></i>
+                <div class="hamburg">
+                    <div class="inlnk">
+                       <a href="tempconvCK.html">Celcius to Kelvin</a> 
+                    </div>
+                    <div class="inlnk">
+                        <a href="form.html">Validate Your Form Here!</a>
+                    </div>
+                    <div class="inlnk">
+                        <a href="tempconvFK.html">
+                            Fahrenheit to Kelvin
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 class="h2">Celcius to Fahrenheit</h2>
+            </div>
+            <div class="temp-conv">
+                <input type="number" id="celcius" value="0" class="inp" > <Span>=</Span><br>
+                <label>Celcius</label>
+                
+            </div>
+            <div class="temp-conv">
+                <input type="number" id="Fahrenheit" value="32" class="inp" ><br>
+                <label>Fahrenheit</label>
+                
+            </div>
+            <script src="JS/tempconv.js"></script>
+
+        </body>
+        </html>
